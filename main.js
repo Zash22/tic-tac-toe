@@ -1,7 +1,7 @@
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
 
-export function checkWinner() {
+export function checkWinner(gameBoard) {
     const winningCombos = [
         [0, 1, 2],
         [3, 4, 5],
@@ -42,7 +42,7 @@ if (typeof window !== 'undefined') {
             if (gameBoard[index] === '') {
                 gameBoard[index] = currentPlayer;
                 cell.textContent = currentPlayer;
-                if (checkWinner()) {
+                if (checkWinner(gameBoard)) {
                     winningMessageTextElement.innerText = `${currentPlayer} wins!`
                     winningMessageElement.classList.add('show')
                 } else if (gameBoard.every(cell => cell !== '')) {
