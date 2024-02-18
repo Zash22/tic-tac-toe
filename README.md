@@ -1,5 +1,6 @@
 # tic-tac-toe
 Tic-Tac-Toe app built with Vite using 'vanilla' template
+Github page url: https://zash22.github.io/tic-tac-toe/
 
 Setup:
 1. git clone git@github.com:Zash22/tic-tac-toe.git
@@ -14,7 +15,6 @@ To run Vitest:
 
 Outstanding/ToDo:
 1. Write missing Vitest & Playwright test for 100% coverage
-2. Deploy app to github pages
-3. Optimise responsive media queries and CSS
+2. Optimise responsive media queries and CSS
 
 
