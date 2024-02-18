@@ -10,13 +10,11 @@ To run Playwright tests:
 1. pnpm exec playwright test
 
 To run Vitest:
-1. npx vitest
+1. npx vitest  --exclude "tests/*"
 
 Outstanding/ToDo:
-1. Fix Vitest tests
-2. Add Vitest test runs to github workflow
-3. Write missing Vitest & Playwright test for 100% coverage
-4. Deploy app to github pages
-5. Optimise responsive media queries and CSS
+1. Write missing Vitest & Playwright test for 100% coverage
+2. Deploy app to github pages
+3. Optimise responsive media queries and CSS
 
 
